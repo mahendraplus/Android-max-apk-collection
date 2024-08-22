@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>App Store</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+
+        header {
+            width: 100%;
+            padding: 20px;
+            background-color: #3b82f6;
+            color: white;
+            text-align: center;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+            font-size: 2rem;
+            font-weight: bold;
+        }
+
+        #search-bar {
+            width: 80%;
+            max-width: 600px;
+            margin: 20px 0;
+        }
+
+        input[type="text"] {
+            width: 100%;
+            padding: 15px;
+            font-size: 1rem;
+            border-radius: 5px;
+            border: 2px solid #3b82f6;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+        }
+
+        #app-list {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 20px;
+            width: 90%;
+            max-width: 1200px;
+            margin-bottom: 40px;
+        }
+
+        .app-card {
+            background-color: white;
+            border-radius: 10px;
+            box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+            padding: 20px;
+            width: 280px;
+            transition: transform 0.3s ease;
+            cursor: pointer;
+        }
+
+        .app-card:hover {
+            transform: translateY(-5px);
+        }
+
+        .app-card h3 {
+            margin: 0;
+            font-size: 1.5rem;
+            color: #3b82f6;
+        }
+
+        .app-card p {
+            font-size: 1rem;
+            color: #333;
+            margin: 10px 0;
+        }
+
+        .app-card a {
+            display: inline-block;
+            margin-top: 10px;
+            text-decoration: none;
+            background-color: #3b82f6;
+            color: white;
+            padding: 10px 15px;
+            border-radius: 5px;
+            font-size: 1rem;
+        }
+
+        .app-card a:hover {
+            background-color: #2563eb;
+        }
+
+        @media (max-width: 768px) {
+            .app-card {
+                width: 100%;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <header>Android App Store</header>
+    <div id="search-bar">
+        <input type="text" id="search-input" placeholder="Search for apps...">
+    </div>
+    <div id="app-list"></div>
+
+    <script>
+        const jsonUrl = "https://raw.githubusercontent.com/mahendraplus/Android_App_Store/Max/data/db.json";
+        const appList = document.getElementById('app-list');
+        const searchInput = document.getElementById('search-input');
+
+        // Fetch the JSON data
+        fetch(jsonUrl)
+            .then(response => response.json())
+            .then(data => {
+                displayApps(data);
+            })
+            .catch(error => console.error('Error fetching the JSON data:', error));
+
+        // Display the apps
+        function displayApps(data) {
+            appList.innerHTML = '';
+            data.forEach(app => {
+                const appCard = document.createElement('div');
+                appCard.className = 'app-card';
+                appCard.innerHTML = `
+                    <h3>${app.Name}</h3>
+                    <p>${app.Description}</p>
+                    <a href="${app.URL}" target="_blank">Download</a>
+                `;
+                appList.appendChild(appCard);
+            });
+        }
+
+        // Filter the apps based on search input
+        searchInput.addEventListener('input', () => {
+            const searchTerm = searchInput.value.toLowerCase();
+            fetch(jsonUrl)
+                .then(response => response.json())
+                .then(data => {
+                    const filteredApps = data.filter(app => app.Name.toLowerCase().includes(searchTerm) || app.Description.toLowerCase().includes(searchTerm));
+                    displayApps(filteredApps);
+                });
+        });
+    </script>
+</body>
+
+</html>
