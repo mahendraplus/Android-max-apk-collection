@@ -1,0 +1,612 @@
+[
+    {
+        "Name": "Termux",
+        "Description": "A powerful terminal emulator that brings Linux environment utilities to Android, perfect for ethical hacking and penetration testing.",
+        "URL": "https://github.com/termux/termux-app"
+    },
+    {
+        "Name": "Kali NetHunter",
+        "Description": "The official penetration testing platform for Android by Kali Linux, includes a comprehensive set of hacking tools.",
+        "URL": "https://www.kali.org/kali-linux-nethunter/"
+    },
+    {
+        "Name": "Zanti",
+        "Description": "A mobile penetration testing toolkit that allows security testers to perform complex audits with ease.",
+        "URL": "https://www.zimperium.com/zanti-mobile-penetration-testing/"
+    },
+    {
+        "Name": "Hackode",
+        "Description": "A suite of hacking tools for reconnaissance, scanning, and information gathering.",
+        "URL": "https://hackode.in/"
+    },
+    {
+        "Name": "dSploit",
+        "Description": "A network analysis and penetration suite that offers network mapping, vulnerability scanning, and password cracking.",
+        "URL": "https://github.com/evilsocket/dsploit"
+    },
+    {
+        "Name": "AndroRAT",
+        "Description": "An open-source remote access tool that lets you control Android devices remotely.",
+        "URL": "https://github.com/The404Hacking/AndroRAT"
+    },
+    {
+        "Name": "Nmap for Android",
+        "Description": "The Android version of the famous network scanner, widely used in penetration testing.",
+        "URL": "https://nmap.org/download.html"
+    },
+    {
+        "Name": "WiFi Kill",
+        "Description": "Disables internet access for devices connected to the same Wi-Fi network, useful in network control scenarios.",
+        "URL": "https://apkpure.com/wifi-kill"
+    },
+    {
+        "Name": "WiFi Analyzer",
+        "Description": "Provides a detailed analysis of Wi-Fi networks, showing signal strength, channels, and more.",
+        "URL": "https://play.google.com/store/apps/details?id=com.farproc.wifi.analyzer"
+    },
+    {
+        "Name": "NetCut",
+        "Description": "A network analysis tool that allows you to detect and manage devices on your network.",
+        "URL": "http://www.arcai.com/netcut-for-android/"
+    },
+    {
+        "Name": "Fing Network Tools",
+        "Description": "A comprehensive toolkit for discovering devices and diagnosing network issues.",
+        "URL": "https://www.fing.com/products/fing-app"
+    },
+    {
+        "Name": "WIBR+",
+        "Description": "A brute force Wi-Fi password cracking tool targeting WPS and WPA/WPA2 networks.",
+        "URL": "https://apkpure.com/wibr-wifi-bruteforce-hack/com.techwib"
+    },
+    {
+        "Name": "cSploit",
+        "Description": "A toolkit offering features like MITM (Man-In-The-Middle), DNS spoofing, and vulnerability scanning.",
+        "URL": "https://github.com/cSploit/android"
+    },
+    {
+        "Name": "Shark for Root",
+        "Description": "A packet-sniffing tool based on tcpdump for analyzing network traffic.",
+        "URL": "https://apkpure.com/shark-for-root"
+    },
+    {
+        "Name": "AndroDumpper",
+        "Description": "Tests the WPS vulnerability of Wi-Fi networks, allowing you to assess network security.",
+        "URL": "https://apkpure.com/androdumpper-wps-connect/com.bigos.androdumpper"
+    },
+    {
+        "Name": "SSLUnpinning",
+        "Description": "A utility for bypassing SSL certificate pinning in Android apps during penetration testing.",
+        "URL": "https://github.com/ac-pm/SSLUnpinning_Xposed"
+    },
+    {
+        "Name": "Packet Capture",
+        "Description": "Captures and analyzes network packets, including HTTP and HTTPS traffic.",
+        "URL": "https://play.google.com/store/apps/details?id=app.greyshirts.sslcapture"
+    },
+    {
+        "Name": "Network Spoofer",
+        "Description": "Allows you to change websites on other people’s computers from your Android device.",
+        "URL": "https://apkpure.com/network-spoofer"
+    },
+    {
+        "Name": "Shell Terminal Emulator",
+        "Description": "A simple command-line interface that runs Linux commands on Android.",
+        "URL": "https://play.google.com/store/apps/details?id=jackpal.androidterm"
+    },
+    {
+        "Name": "WPS Connect",
+        "Description": "Connects to WPS-enabled Wi-Fi routers that have a known vulnerability.",
+        "URL": "https://apkpure.com/wps-connect/com.ngb.wpsconnect"
+    },
+    {
+        "Name": "Tor Browser for Android",
+        "Description": "Provides anonymous internet browsing via the Tor network.",
+        "URL": "https://play.google.com/store/apps/details?id=org.torproject.torbrowser"
+    },
+    {
+        "Name": "WiFi Warden",
+        "Description": "Analyzes Wi-Fi networks and reveals passwords for WPS-enabled routers.",
+        "URL": "https://play.google.com/store/apps/details?id=com.xti.wifiwarden"
+    },
+    {
+        "Name": "OpenVPN for Android",
+        "Description": "A client for the OpenVPN protocol, allowing secure connections to private networks.",
+        "URL": "https://play.google.com/store/apps/details?id=de.blinkt.openvpn"
+    },
+    {
+        "Name": "USB Cleaver",
+        "Description": "Extracts information like Wi-Fi passwords from connected devices.",
+        "URL": "https://apkpure.com/usb-cleaver"
+    },
+    {
+        "Name": "Router Keygen",
+        "Description": "Generates default WPA/WEP passwords for various routers.",
+        "URL": "https://apkpure.com/router-keygen"
+    },
+    {
+        "Name": "Orbot",
+        "Description": "A proxy app that brings Tor network access to Android.",
+        "URL": "https://play.google.com/store/apps/details?id=org.torproject.android"
+    },
+    {
+        "Name": "DroidSheep",
+        "Description": "A session hijacking tool that listens to unprotected HTTP sessions on Wi-Fi networks.",
+        "URL": "https://github.com/giwicom/droidsheep"
+    },
+    {
+        "Name": "Debinject",
+        "Description": "A CLI tool used to inject payloads into Android applications.",
+        "URL": "https://apkpure.com/debinject"
+    },
+    {
+        "Name": "AmSploit",
+        "Description": "A toolkit designed for penetration testing and exploiting vulnerabilities in Android devices.",
+        "URL": "https://apkpure.com/amsploit"
+    },
+    {
+        "Name": "NetHunter Store",
+        "Description": "An app store providing penetration testing apps that integrate with Kali NetHunter.",
+        "URL": "https://store.nethunter.com/"
+    },
+    {
+        "Name": "Drozer",
+        "Description": "A comprehensive Android security assessment framework used to evaluate Android apps.",
+        "URL": "https://github.com/FSecureLABS/drozer"
+    },
+    {
+        "Name": "Evil Droid",
+        "Description": "A toolkit that automatically injects malicious code into Android APKs.",
+        "URL": "https://apkpure.com/evil-droid"
+    },
+    {
+        "Name": "MobSF",
+        "Description": "A security framework for static and dynamic analysis of Android and iOS applications.",
+        "URL": "https://mobsf.github.io/"
+    },
+    {
+        "Name": "APK Inspector",
+        "Description": "A powerful reverse-engineering tool for analyzing and modifying APK files.",
+        "URL": "https://github.com/honeynet/apkinspector"
+    },
+    {
+        "Name": "SPYNote",
+        "Description": "A remote access tool for Android that offers keylogging, screen capture, and more.",
+        "URL": "https://apkpure.com/spynote"
+    },
+    {
+        "Name": "Keylogger",
+        "Description": "Monitors keystrokes on an Android device, used in security testing.",
+        "URL": "https://apkpure.com/android-keylogger"
+    },
+    {
+        "Name": "FaceNiff",
+        "Description": "A session hijacking tool designed for stealing credentials over Wi-Fi networks.",
+        "URL": "https://apkpure.com/faceniff"
+    },
+    {
+        "Name": "WiGLE WiFi Wardriving",
+        "Description": "Maps Wi-Fi networks and provides detailed statistics, useful in network reconnaissance.",
+        "URL": "https://play.google.com/store/apps/details?id=net.wigle.wigleandroid"
+    },
+    {
+        "Name": "Arpspoof",
+        "Description": "A simple tool to spoof ARP replies to redirect network traffic.",
+        "URL": "https://apkpure.com/arpspoof"
+    },
+    {
+        "Name": "Bettercap",
+        "Description": "A powerful, flexible, and portable tool used for network attacks, monitoring, and analysis.",
+        "URL": "https://github.com/bettercap/bettercap"
+    },
+    {
+        "Name": "WiFi Inspect",
+        "Description": "A multi-tool for ethical hackers to monitor networks, scan devices, and manage connected devices.",
+        "URL": "https://play.google.com/store/apps/details?id=com.magdalm.wifiinspect"
+    },
+    {
+        "Name": "AppUse",
+        "Description": "A virtual mobile testing environment for pentesters and app-security testers.",
+        "URL": "https://github.com/appsec-labs/appuse"
+    },
+    {
+        "Name": "AIDE",
+        "Description": "An integrated development environment for Android, allowing you to create and test apps directly from your device.",
+        "URL": "https://play.google.com/store/apps/details?id=com.aide.ui"
+    },
+    {
+        "Name": "JuiceSSH",
+        "Description": "A comprehensive SSH client with support for Telnet and Mosh, useful for remote server management.",
+        "URL": "https://play.google.com/store/apps/details?id=com.sonelli.juicessh"
+    },
+    {
+        "Name": "DroidSQLi",
+        "Description": "An automated SQL injection tool for testing database vulnerabilities in Android apps and websites.",
+        "URL": "https://apkpure.com/droid-sqli"
+    },
+    {
+        "Name": "SecScanQR",
+        "Description": "A QR code scanner with advanced security features that prevents malicious links from being opened.",
+        "URL": "https://github.com/matteof93/SecScanQR"
+    },
+    {
+        "Name": "Hash Suite Droid",
+        "Description": "A tool for analyzing password hashes, offering cracking features and password list management.",
+        "URL": "https://github.com/hashcat/hashcat"
+    },
+    {
+        "Name": "zANTI 2",
+        "Description": "An advanced network testing toolkit that allows users to audit networks for vulnerabilities.",
+        "URL": "https://apkpure.com/zanti-2"
+    },
+    {
+        "Name": "SPY24",
+        "Description": "A multi-platform remote monitoring tool that allows the user to track devices remotely.",
+        "URL": "https://www.spy24.org/"
+    },
+    {
+        "Name": "FilePwn",
+        "Description": "A mobile application used for exploiting file upload vulnerabilities.",
+        "URL": "https://github.com/0x1CA3/filepwn"
+    },
+    {
+        "Name": "DroidPentest",
+        "Description": "An Android penetration testing framework that helps testers identify app vulnerabilities.",
+        "URL": "https://github.com/AndroidPentest"
+    },
+    {
+        "Name": "Kali Linux NetHunter Rootless",
+        "Description": "A lighter version of Kali NetHunter that does not require root access.",
+        "URL": "https://www.kali.org/docs/nethunter/nethunter-rootless/"
+    },
+    {
+        "Name": "HTTP Toolkit",
+        "Description": "A tool that intercepts, inspects, and rewrites HTTP(S) traffic from Android apps and browsers.",
+        "URL": "https://httptoolkit.tech/"
+    },
+    {
+        "Name": "APKTool",
+        "Description": "A powerful tool for decompiling, analyzing, and modifying APK files.",
+        "URL": "https://github.com/iBotPeaches/Apktool"
+    },
+    {
+        "Name": "MSFvenom for Android",
+        "Description": "A payload generator used with Metasploit for creating APK files that embed malicious payloads.",
+        "URL": "https://github.com/rapid7/metasploit-framework/wiki/Using-Msfvenom"
+    },
+    {
+        "Name": "Andrax",
+        "Description": "A full-featured penetration testing distribution for Android devices.",
+        "URL": "https://github.com/The-Cracker-Technology/ANDRAX-Mobile-Pentest"
+    },
+    {
+        "Name": "NetMonster",
+        "Description": "Provides detailed information about cell towers and helps in network monitoring.",
+        "URL": "https://play.google.com/store/apps/details?id=cz.mroczis.netmonster"
+    },
+    {
+        "Name": "DroidSniff",
+        "Description": "An Android app for intercepting unencrypted web sessions over Wi-Fi.",
+        "URL": "https://github.com/droidsniff"
+    },
+    {
+        "Name": "WPSApp",
+        "Description": "Checks the security of your network using the WPS protocol.",
+        "URL": "https://play.google.com/store/apps/details?id=com.themausoft.wpsapp"
+    },
+    {
+        "Name": "WiFi WPS WPA Tester",
+        "Description": "Tests the security of your Wi-Fi networks with various methods, including WPS PIN brute force.",
+        "URL": "https://play.google.com/store/apps/details?id=com.tester.wpswpatester"
+    },
+    {
+        "Name": "Network Mapper",
+        "Description": "A fast port scanner and network mapping tool for Android devices.",
+        "URL": "https://play.google.com/store/apps/details?id=com.device.networkmapper"
+    },
+    {
+        "Name": "My Android Tools",
+        "Description": "Provides a powerful toolkit for app and device management, including background task monitoring.",
+        "URL": "https://apkpure.com/my-android-tools"
+    },
+    {
+        "Name": "Intercepter-NG",
+        "Description": "An advanced network security toolkit for analyzing network traffic, MITM attacks, and more.",
+        "URL": "https://apkpure.com/intercepter-ng"
+    },
+    {
+        "Name": "AndroDumpper",
+        "Description": "Tests the security of Wi-Fi networks using various WPS connection tests.",
+        "URL": "https://apkpure.com/androdumpper-wps-connect"
+    },
+    {
+        "Name": "Paranoid Android",
+        "Description": "A modified Android OS focused on security and privacy for penetration testers.",
+        "URL": "https://github.com/AOSPA/android"
+    },
+    {
+        "Name": "WiFi Map",
+        "Description": "An extensive Wi-Fi hotspot database that allows you to discover and connect to available networks.",
+        "URL": "https://play.google.com/store/apps/details?id=io.wifimap.wifimap"
+    },
+    {
+        "Name": "Network Scanner",
+        "Description": "Scans Wi-Fi networks and provides device information, network details, and diagnostics.",
+        "URL": "https://play.google.com/store/apps/details?id=com.easymobile.networkscanner"
+    },
+    {
+        "Name": "Mycelium Entropy",
+        "Description": "A tool for generating secure and random Bitcoin addresses, ensuring high levels of cryptography.",
+        "URL": "https://play.google.com/store/apps/details?id=com.mycelium.entropy"
+    },
+    {
+        "Name": "Router Scan",
+        "Description": "Scans routers to determine default credentials, vulnerabilities, and provides information on open ports.",
+        "URL": "https://apkpure.com/router-scan"
+    },
+    {
+        "Name": "Encrypt.me",
+        "Description": "Provides a secure VPN for testing and ensuring encrypted internet connections.",
+        "URL": "https://play.google.com/store/apps/details?id=com.stackpath.encryptme"
+    },
+    {
+        "Name": "OONI Probe",
+        "Description": "A tool for testing network censorship, providing insights into blocked content in different regions.",
+        "URL": "https://ooni.org/install/"
+    },
+    {
+        "Name": "Drozer (FSecure Labs)",
+        "Description": "A comprehensive security and exploitation framework for assessing Android apps.",
+        "URL": "https://github.com/FSecureLABS/drozer"
+    },
+    {
+        "Name": "Seeker",
+        "Description": "A location tracker that uses social engineering to gather GPS information.",
+        "URL": "https://github.com/thewhiteh4t/seeker"
+    },
+    {
+        "Name": "Viper4Android FX",
+        "Description": "An audio-enhancement tool that modifies sound processing settings at a system level.",
+        "URL": "https://forum.xda-developers.com/t/viper4android-fx"
+    },
+    {
+        "Name": "APk Easy Tool",
+        "Description": "A GUI-based tool for decompiling, recompiling, and signing Android APK files.",
+        "URL": "https://github.com/Lucky-Lukas/APK-Easy-Tool"
+    },
+    {
+        "Name": "Shodan Mobile",
+        "Description": "A mobile version of the Shodan search engine, which scans and identifies devices connected to the internet.",
+        "URL": "https://play.google.com/store/apps/details?id=net.shodan.app"
+    },
+    {
+        "Name": "DriveDroid",
+        "Description": "Allows you to boot your PC using ISO/IMG files stored on your Android device, useful for live OS testing.",
+        "URL": "https://play.google.com/store/apps/details?id=com.softwarebakery.drivedroid"
+    },
+    {
+        "Name": "SniffDroid",
+        "Description": "A network packet capturing and analyzing tool that can be used for network security testing.",
+        "URL": "https://apkpure.com/sniffdroid"
+    },
+    {
+        "Name": "L3MON",
+        "Description": "A powerful remote administration tool (RAT) for monitoring Android devices.",
+        "URL": "https://github.com/D3VL/L3MON"
+    },
+    {
+        "Name": "NetHunter KeX",
+        "Description": "A VNC server allowing users to run a full Kali Linux desktop on Android devices.",
+        "URL": "https://www.kali.org/docs/nethunter/nethunter-kex/"
+    },
+    {
+        "Name": "USB OTG Checker",
+        "Description": "Tests if your device supports USB On-The-Go (OTG) for connecting USB devices, useful in pentesting scenarios.",
+        "URL": "https://play.google.com/store/apps/details?id=com.faitaujapon.otgchecker"
+    },
+    {
+        "Name": "WiFi Analyzer Pro",
+        "Description": "A professional-grade Wi-Fi analyzer that provides detailed insights into network performance.",
+        "URL": "https://play.google.com/store/apps/details?id=abdelrahman.wifianalyzerpro"
+    },
+    {
+        "Name": "StegDroid",
+        "Description": "A steganography tool for hiding data within images, useful for secure communication.",
+        "URL": "https://apkpure.com/stegdroid"
+    },
+    {
+        "Name": "Droid Pentest Update Checker",
+        "Description": "Keeps your penetration testing tools updated, ensuring you have the latest versions installed.",
+        "URL": "https://apkpure.com/droid-pentest-update-checker"
+    },
+    {
+        "Name": "Metasploit for Android",
+        "Description": "A mobile interface for using Metasploit, an advanced penetration testing framework.",
+        "URL": "https://github.com/rapid7/metasploit-framework"
+    },
+    {
+        "Name": "Nessus Vulnerability Scanner",
+        "Description": "A mobile app version of the Nessus tool for vulnerability assessment and scanning.",
+        "URL": "https://www.tenable.com/products/nessus"
+    },
+    {
+        "Name": "LanDroid",
+        "Description": "Provides a set of networking tools, including ping, traceroute, and DNS lookup, useful for network analysis.",
+        "URL": "https://play.google.com/store/apps/details?id=com.ddm.landroid"
+    },
+    {
+        "Name": "Privacy Browser",
+        "Description": "A browser designed with privacy in mind, offering features like disabling JavaScript and blocking trackers.",
+        "URL": "https://play.google.com/store/apps/details?id=com.stoutner.privacybrowser"
+    },
+    {
+        "Name": "Orfox",
+        "Description": "An Android browser based on Tor, offering privacy-focused internet browsing and bypassing censorship.",
+        "URL": "https://archive.torproject.org/tor-package-archive/orfox/"
+    },
+    {
+        "Name": "AndroBugs Framework",
+        "Description": "A security testing framework for Android apps that scans for vulnerabilities and suggests fixes.",
+        "URL": "https://github.com/AndroBugs/AndroBugs_Framework"
+    },
+    {
+        "Name": "ExploitDB",
+        "Description": "An Android app providing access to the Exploit Database, offering the latest public exploits and vulnerabilities.",
+        "URL": "https://www.exploit-db.com/"
+    },
+    {
+        "Name": "Inspeckage",
+        "Description": "An Android package inspector for security researchers and app testers that provides deep insights into app behavior.",
+        "URL": "https://github.com/ac-pm/Inspeckage"
+    },
+    {
+        "Name": "Packet Capture",
+        "Description": "An app that captures and inspects network packets, including SSL traffic.",
+        "URL": "https://play.google.com/store/apps/details?id=app.greyshirts.sslcapture"
+    },
+    {
+        "Name": "Apk Editor Pro",
+        "Description": "A versatile tool for editing APK files, enabling the modification of apps and injecting scripts.",
+        "URL": "https://apkpure.com/apk-editor-pro"
+    },
+    {
+        "Name": "SHREDDIT",
+        "Description": "A privacy tool that securely deletes files beyond recovery, ensuring sensitive data is permanently erased.",
+        "URL": "https://play.google.com/store/apps/details?id=com.theredspy15.shreddit"
+    },
+    {
+        "Name": "DroidSQLi",
+        "Description": "An automated SQL injection tool designed for testing database security in Android apps and websites.",
+        "URL": "https://github.com/android-security/DroidSQLi"
+    },
+    {
+        "Name": "Tailscale",
+        "Description": "A zero-config VPN that securely connects devices with end-to-end encryption, useful for secure remote access.",
+        "URL": "https://play.google.com/store/apps/details?id=com.tailscale.ipn"
+    },
+    {
+        "Name": "DroidSheep",
+        "Description": "A session hijacking tool that analyzes unprotected web sessions over Wi-Fi networks.",
+        "URL": "https://github.com/trustedsec/droidsheep"
+    },
+    {
+        "Name": "Nmap for Android",
+        "Description": "A mobile version of Nmap, a popular network discovery and security auditing tool.",
+        "URL": "https://github.com/kost/AndroidNmap"
+    },
+    {
+        "Name": "Aegis Authenticator",
+        "Description": "An open-source 2FA (two-factor authentication) app designed with strong security in mind.",
+        "URL": "https://play.google.com/store/apps/details?id=com.beemdevelopment.aegis"
+    },
+    {
+        "Name": "Droid Proxy",
+        "Description": "An app that helps set up proxy servers on Android devices, useful for testing and secure browsing.",
+        "URL": "https://apkpure.com/droid-proxy"
+    },
+    {
+        "Name": "Warden",
+        "Description": "An app that detects and removes trackers and loggers from installed apps, improving privacy.",
+        "URL": "https://github.com/AuroraWarden/Warden"
+    },
+    {
+        "Name": "zANTI",
+        "Description": "A comprehensive toolkit for network vulnerability assessments, providing real-time reports and testing tools.",
+        "URL": "https://www.zimperium.com/zanti-mobile-penetration-testing/"
+    },
+    {
+        "Name": "Network Signal Info",
+        "Description": "Displays detailed information about your network signal strength, including Wi-Fi and mobile data metrics.",
+        "URL": "https://play.google.com/store/apps/details?id=de.android.telnet2.networksignalinfo"
+    },
+    {
+        "Name": "PCAPdroid",
+        "Description": "A powerful packet capture tool that offers live traffic monitoring and exporting of network packets.",
+        "URL": "https://play.google.com/store/apps/details?id=com.emanuelef.remote_capture"
+    },
+    {
+        "Name": "TinyCA",
+        "Description": "A certificate authority management tool, useful for generating SSL certificates for secure communications.",
+        "URL": "https://sourceforge.net/projects/tinyca/"
+    },
+    {
+        "Name": "LUKS Manager",
+        "Description": "An encryption manager that supports LUKS volumes, allowing for secure data storage and access.",
+        "URL": "https://play.google.com/store/apps/details?id=com.novalsys.luksmanager"
+    },
+    {
+        "Name": "HTTP Injector",
+        "Description": "A powerful SSH and VPN tool that allows you to bypass firewalls and secure your internet connection.",
+        "URL": "https://play.google.com/store/apps/details?id=com.evozi.injector"
+    },
+    {
+        "Name": "NoRoot Firewall",
+        "Description": "A firewall solution that doesn’t require root, offering fine-grained control over internet access for apps.",
+        "URL": "https://play.google.com/store/apps/details?id=app.greyshirts.firewall"
+    },
+    {
+        "Name": "Crypto",
+        "Description": "Provides various cryptographic operations including hashing, encryption, and decryption, all from an Android device.",
+        "URL": "https://github.com/first20hours/crypto"
+    },
+    {
+        "Name": "Bugjaeger Mobile ADB",
+        "Description": "A powerful ADB (Android Debug Bridge) toolset for developers, allowing testing and debugging directly from your device.",
+        "URL": "https://play.google.com/store/apps/details?id=eu.sisik.hackendebug"
+    },
+    {
+        "Name": "Packet Sender",
+        "Description": "A utility that sends and receives TCP/UDP packets for testing networking tools and configurations.",
+        "URL": "https://play.google.com/store/apps/details?id=com.packetsender.android"
+    },
+    {
+        "Name": "Ghost Commander",
+        "Description": "A dual-panel file manager with built-in support for FTP, SFTP, and SMB, allowing secure file transfers.",
+        "URL": "https://play.google.com/store/apps/details?id=com.ghostsq.commander"
+    },
+    {
+        "Name": "NetCut",
+        "Description": "A network tool that lets you monitor and control devices connected to your Wi-Fi network.",
+        "URL": "https://play.google.com/store/apps/details?id=com.arcai.netcut"
+    },
+    {
+        "Name": "App Inspector",
+        "Description": "Allows you to view details about installed apps, including permissions, activities, and libraries.",
+        "URL": "https://play.google.com/store/apps/details?id=com.ubqsoft.sec01"
+    },
+    {
+        "Name": "Netguard",
+        "Description": "A no-root firewall that blocks access to the internet for apps and enhances your privacy.",
+        "URL": "https://play.google.com/store/apps/details?id=eu.faircode.netguard"
+    },
+    {
+        "Name": "HushSMS",
+        "Description": "A penetration testing tool that tests your network for vulnerabilities related to SMS protocols.",
+        "URL": "https://apkpure.com/hushsms"
+    },
+    {
+        "Name": "Kali Linux NetHunter",
+        "Description": "The official penetration testing platform for Android by the Kali Linux team, offering a full-featured security toolset.",
+        "URL": "https://www.kali.org/docs/nethunter/nethunter/"
+    },
+    {
+        "Name": "SMSTrap",
+        "Description": "An app that captures and logs incoming and outgoing SMS messages for testing and analysis purposes.",
+        "URL": "https://github.com/jaywick/SMSTrap"
+    },
+    {
+        "Name": "Certbot",
+        "Description": "A tool for managing SSL certificates, enabling automated generation and renewal for secure communication.",
+        "URL": "https://certbot.eff.org/"
+    },
+    {
+        "Name": "Netcat for Android",
+        "Description": "A lightweight network utility used for reading and writing network connections using TCP or UDP.",
+        "URL": "https://github.com/netcat/netcat"
+    },
+    {
+        "Name": "SPYNote",
+        "Description": "A mobile remote administration tool (RAT) for monitoring and managing Android devices remotely.",
+        "URL": "https://github.com/spycoder007/SPYNote"
+    }
+]
